@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-hex: #FFFFFF;
+  --background-hex: #000000;
+  --font-marcellus: 'Marcellus', serif;
+  --font-merriweather: 'Merriweather', serif;
+  --font-lora: 'Lora', serif;
+}
+
+body {
+  color: var(--foreground-hex);
+  background: var(--background-hex);
+  font-family: var(--font-lora);
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-marcellus);
+}
+
+h4, nav {
+  font-family: var(--font-merriweather);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

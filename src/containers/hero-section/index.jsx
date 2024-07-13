@@ -28,7 +28,12 @@ export default function HeroSection() {
           </h1>
         </div>
         <h4 className="text-center text-lg lg:text-xl px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, et.</h4>
-        <button onClick={() => scrollToSection()} className="uppercase font-bold bg-[#FFFFFF] p-4 rounded-lg text-black hover:bg-[#bbbbbb] transition duration-[200ms] active:scale-95">entre em contato</button>
+        <button
+        onClick={() => scrollToSection()}
+        className="uppercase font-bold bg-white p-4 rounded-xl text-black hover:bg-gray-300 transition duration-200 active:scale-95 shadow-md hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-50"
+        >
+          entre em contato
+        </button>
       </section>
     </>
   );

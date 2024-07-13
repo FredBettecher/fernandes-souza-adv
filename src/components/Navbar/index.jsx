@@ -45,7 +45,7 @@ export default function Navbar() {
         <Image src={Logo} alt="Fernandes e Souza" className="pointer-events-none w-10" />
         <h1 className="font-bold select-none text-lg lg:text-xl">Fernandes & Souza</h1>
       </div>
-      <div className="hidden lg:flex gap-20">
+      <div className="hidden lg:flex gap-20 font-bold">
         <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
         <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
         <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>

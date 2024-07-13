@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import AboutUs from "@/containers/about-us";
+import Contact from "@/containers/contact";
 import HeroSection from "@/containers/hero-section";
 import Operation from "@/containers/operation";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <AboutUs />
       <Operation />
+      <Contact />
     </main>
   );
 }

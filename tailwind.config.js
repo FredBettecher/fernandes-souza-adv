@@ -16,6 +16,14 @@ module.exports = {
         merriweather: ["var(--font-merriweather)", "serif"],
         lora: ["var(--font-lora)", "serif"],
       },
+      colors: {
+        "custom-blue": "#2A3143",
+        "custom-blue-light": "#3E465A",
+        "custom-blue-dark": "#1B2130",
+        "custom-beige": "#E5C6A2",
+        "custom-beige-light": "#F2D8BA",
+        "custom-beige-dark": "#C8A27F",
+      },
     },
   },
   plugins: [

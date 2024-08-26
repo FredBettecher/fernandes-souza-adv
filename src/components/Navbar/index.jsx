@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "../../../public/logo.webp";
+import Logo from "../../../public/logo-1.webp";
 import { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -40,30 +40,29 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`${show ? 'animate-fade-down animate-duration-[500ms] animate-ease-linear' : 'hidden'} bg-gradient-to-b from-black from-10% to-transparent w-full flex justify-between items-center p-4 lg:px-8 text-sm lg:text-base fixed top-0 left-0 z-10`}>
+    <nav className={`${show ? 'animate-fade-down animate-duration-[500ms] animate-ease-linear' : 'hidden'} bg-gradient-to-b from-black from-10% to-transparent w-full flex justify-between items-center p-4 lg:px-8 text-custom-beige text-sm lg:text-base fixed top-0 left-0 z-10`}>
       <div className="flex items-center gap-4">
-        <Image src={Logo} alt="Fernandes e Souza" className="pointer-events-none w-10" />
-        <h1 className="font-bold select-none text-lg lg:text-xl">Fernandes & Souza</h1>
+        <Image src={Logo} alt="Fernandes e Souza" className="pointer-events-none w-52 md:w-60" />
       </div>
       <div className="hidden lg:flex gap-20 font-bold">
-        <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
-        <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
-        <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
-        <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
+        <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
+        <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
+        <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
+        <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
       </div>
       <div className="lg:hidden flex items-center">
         <button onClick={toggleMenu}>
           {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
-        {menuOpen && (
-          <div className="flex flex-col items-end gap-2 mt-2 absolute top-16 right-4">
-            <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
-            <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
-            <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
-            <button className="hover:text-[#ffffff99] transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
-          </div>
-        )}
       </div>
+      {menuOpen && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex flex-col items-center justify-center text-center">
+          <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
+          <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
+          <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
+          <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
+        </div>
+      )}
     </nav>
   );
 }

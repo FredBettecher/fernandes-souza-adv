@@ -15,6 +15,7 @@ module.exports = {
         marcellus: ["var(--font-marcellus)", "serif"],
         merriweather: ["var(--font-merriweather)", "serif"],
         lora: ["var(--font-lora)", "serif"],
+        chesnaGrotesk: ["var(--font-chesnaGrotesk)", "serif"],
       },
       colors: {
         "custom-blue": "#2A3143",

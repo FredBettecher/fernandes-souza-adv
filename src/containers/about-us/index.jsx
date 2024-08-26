@@ -3,7 +3,7 @@ import { FaUserTie } from "react-icons/fa6";
 
 export default function AboutUs() {
   return (
-    <section id="about" className="h-full flex flex-col items-center bg-[#f7f7f7] text-custom-blue py-8 lg:py-16 px-2 lg:px-12">
+    <section id="about" className="h-full flex flex-col items-center bg-[#fff] text-custom-blue py-8 lg:py-16 px-2 lg:px-12">
       <div className="flex flex-col mb-4 lg:items-end lg:w-full">
         <div>
           <h4 className="uppercase flex items-center gap-2 text-lg lg:text-xl text-custom-beige-dark">
@@ -15,7 +15,7 @@ export default function AboutUs() {
       </div>
       <div className="flex flex-col gap-2 text-custom-blue-dark">
         <p className="text-justify">
-          Na Fernandez & Souza Advogados Associados, dedicamo-nos a fornecer uma assessoria jurídica diferenciada e de excelência. Nosso compromisso é atender nossos clientes com total dedicação, oferecendo um atendimento personalizado que assegura maior comodidade e agilidade na prestação de serviços jurídicos.
+          Na Fernandez & Souza Advogados Associados, nos dedicamos a fornecer uma assessoria jurídica diferenciada e de excelência. Nosso compromisso é atender nossos clientes com total dedicação, oferecendo um atendimento personalizado que assegura maior comodidade e agilidade na prestação de serviços jurídicos.
         </p>
         <p className="text-justify">
           Nosso escritório se destaca pela infraestrutura sólida e pela equipe de advogados altamente experientes e especializados em diversas áreas do direito. Estamos preparados para oferecer tanto assessoria contenciosa quanto consultiva/preventiva, sempre com foco na qualidade e na eficiência.

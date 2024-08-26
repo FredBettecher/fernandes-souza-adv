@@ -40,7 +40,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`${show ? 'animate-fade-down animate-duration-[500ms] animate-ease-linear' : 'hidden'} bg-gradient-to-b from-black from-10% to-transparent w-full flex justify-between items-center p-4 lg:px-8 text-custom-beige text-sm lg:text-base fixed top-0 left-0 z-10`}>
+    <nav className={`${show ? 'animate-fade-down animate-duration-[500ms] animate-ease-linear' : 'hidden'} bg-gradient-to-b from-custom-blue-dark from-1% to-transparent w-full flex justify-between items-center p-4 lg:px-8 text-custom-beige text-sm lg:text-base fixed top-0 left-0 z-10`}>
       <div className="flex items-center gap-4">
         <Image src={Logo} alt="Fernandes e Souza" className="pointer-events-none w-52 md:w-60" />
       </div>

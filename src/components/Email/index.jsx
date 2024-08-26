@@ -29,7 +29,7 @@ export default function Email() {
     if (alert.visible) {
       const timer = setTimeout(() => {
         setAlert({ visible: false, message: '', type: '' });
-      }, 3000);
+      }, 4000);
 
       return () => clearTimeout(timer);
     }
@@ -52,7 +52,7 @@ export default function Email() {
         viewport={{ once: true }}
         transition={{ duration: 0.3, delay: 0.6 }}
       >
-        <div className="flex items-center text-[#000]">
+        <div className="flex items-center text-custom-blue">
           <IoMail className="text-2xl mr-2" />
           <h4 className="text-lg">E-mail</h4>
         </div>
@@ -60,31 +60,31 @@ export default function Email() {
           type="text"
           name='user_name'
           placeholder="Nome"
-          className="form-input rounded bg-[#FFFCF5] text-sm lg:text-base"
+          className="form-input rounded text-sm lg:text-base"
           required
         />
         <input
           type="email"
           name='user_email'
           placeholder="E-mail"
-          className="form-input rounded bg-[#FFFCF5] text-sm lg:text-base"
+          className="form-input rounded text-sm lg:text-base"
           required
         />
         <input 
           type='tel'
           name='phone'
           placeholder='Telefone'
-          className="form-input rounded bg-[#FFFCF5] text-sm lg:text-base"
+          className="form-input rounded text-sm lg:text-base"
           pattern='[0-9]{2}[0-9]{9}'
         />
         <textarea
           name="message"
           placeholder="Inserir texto"
-          className="form-input rounded h-32 bg-[#FFFCF5] text-sm lg:text-base"
+          className="form-input rounded h-32 text-sm lg:text-base"
           required
         />
         <button
-          className="w-32 bg-[#000] rounded mt-2 font-bold text-[#FFFCF5] p-2 lg:text-lg"
+          className="w-32 bg-custom-blue rounded mt-2 font-bold text-custom-beige p-2 lg:text-lg"
           type='submit'
           value='Send'
         >

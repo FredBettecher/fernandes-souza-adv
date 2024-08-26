@@ -18,7 +18,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-custom-blue w-full">
-      <div className="flex flex-col md:flex-row justify-around items-center">
+      <div className="flex flex-col md:flex-row justify-around items-center mt-4 md:mt-0">
         <div className="flex flex-col">
           <h4 className="font-bold text-custom-beige uppercase text-center md:text-start">mande um e-mail</h4>
           <p>lucas@lucasfernandes.adv.br</p>
@@ -32,21 +32,21 @@ export default function Footer() {
 
       <div className="w-[95%] h-[1px] bg-custom-beige m-auto my-6"></div>
 
-      <div className="flex flex-col md:flex-row justify-around items-start">
+      <div className="flex flex-col items-center gap-6 md:flex-row md:justify-around md:items-start md:gap-0">
         <div>
           <h4 className="font-bold text-custom-beige uppercase text-center md:text-start">Sobre Nós</h4>
           <p className="w-64 text-justify">
             Oferecemos assessoria jurídica personalizada e ágil, utilizando tecnologia para garantir o controle dos processos jurídicos, proporcionando segurança aos nossos clientes.
           </p>
         </div>
-        <div className="flex flex-col items-start gap-2">
+        <div className="flex flex-col md:items-start gap-2">
           <h4 className="font-bold text-custom-beige uppercase text-center md:text-start">navegação</h4>
           <button className="hover:text-custom-beige transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
           <button className="hover:text-custom-beige transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
           <button className="hover:text-custom-beige transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
           <button className="hover:text-custom-beige transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
         </div>
-        <div>
+        <div className="flex flex-col items-center text-center md:items-start md:text-start gap-2">
           <h4 className="font-bold text-custom-beige uppercase text-center md:text-start">contato</h4>
           <p className="w-64">
             Rua Alfredo Alcure, Nº 200 - Villaggio Campo Grande Business, Sala 911 - Campo Grande, Cariacica-ES
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <p className="text-center mt-4">Fernandez & Souza &#169; 2024 - Todos os direitos reservados</p>
+      <p className="text-center mt-8">Fernandez & Souza &#169; 2024 - Todos os direitos reservados</p>
     </footer>
   );
 }

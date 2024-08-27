@@ -10,7 +10,7 @@ const chesnaGrotesk = localFont({
     {
       path:'./chesnagrotesk-bold.otf',
       weight: '700',
-      style: 'normal',
+      style: 'bold',
     },
     {
       path:'./chesnagrotesk-regularitalic.otf',

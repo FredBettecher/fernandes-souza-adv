@@ -24,7 +24,7 @@ export default function HeroSection() {
         <Image src={Logo} alt="Fernandes e Souza" className="w-[40rem] mt-10" />
         <button
           onClick={() => scrollToSection()}
-          className="uppercase font-bold bg-custom-beige p-4 rounded-xl text-custom-blue transition duration-300 ease-linear active:scale-95 shadow-md hover:shadow-lg transform hover:bg-custom-beige-light hover:text-custom-blue-dark focus:outline-none "
+          className="uppercase font-bold bg-custom-beige p-4 rounded-xl text-custom-blue transition duration-300 ease-linear active:scale-95 shadow-md hover:shadow-lg transform hover:bg-custom-blue hover:text-custom-beige focus:outline-none "
         >
           entre em contato
         </button>

@@ -30,7 +30,7 @@ export default function AboutUs() {
           nossa equipe
         </h2>
         <div>
-          <h3 className="text-xl font-bold mb-1">Lucas Fernandes de Souza</h3>
+          <h3 className="text-xl font-bold">Lucas Fernandes de Souza</h3>
           <h4 className="mb-2 text-custom-blue-light">Advogado Especializado em Direito do Trabalho e Direito Processual Civil</h4>
           <p className="text-custom-blue-dark">
             Lucas Fernandes de Souza é graduado em Direito pela Faculdade de Direito – FACES (2005-2010). Possui Pós-Graduação em Direito e Processo do Trabalho pela Universidade Anhanguera-UNIDERP e em Direito Processual Civil pela Damásio Educacional S/A. Com ampla experiência e dedicação, Lucas oferece assessoria jurídica de alta qualidade, combinando conhecimento profundo das leis com uma abordagem estratégica na resolução de conflitos. Sua expertise faz dele um membro valioso da LFSouza Advogados Associados.

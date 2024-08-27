@@ -45,10 +45,10 @@ export default function Navbar() {
         <Image src={Logo} alt="Fernandes e Souza" className="pointer-events-none w-52 md:w-60" />
       </div>
       <div className="hidden lg:flex gap-20 font-bold">
-        <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
-        <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
-        <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
-        <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
+        <button className="hover:text-white transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
+        <button className="hover:text-white transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
+        <button className="hover:text-white transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
+        <button className="hover:text-white transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
       </div>
       <div className="lg:hidden flex items-center">
         <button onClick={toggleMenu}>
@@ -56,11 +56,11 @@ export default function Navbar() {
         </button>
       </div>
       {menuOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex flex-col items-center justify-center text-center">
-          <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
-          <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
-          <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
-          <button className="hover:text-custom-blue transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
+        <div className="absolute top-0 left-0 w-[100vw] h-[100vh] bg-black bg-opacity-90 flex flex-col items-center justify-center text-center text-xl gap-4">
+          <button className="hover:text-white transition duration-[200ms]" onClick={() => scrollToSection('hero')}>Início</button>
+          <button className="hover:text-white transition duration-[200ms]" onClick={() => scrollToSection('about')}>Quem Somos</button>
+          <button className="hover:text-white transition duration-[200ms]" onClick={() => scrollToSection('operation')}>Atuação</button>
+          <button className="hover:text-white transition duration-[200ms]" onClick={() => scrollToSection('contact')}>Contato</button>
         </div>
       )}
     </nav>

@@ -1,22 +1,45 @@
+"use client";
+
 import Email from "@/components/Email";
 import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 import { IoChatboxEllipsesOutline, IoMail, IoLocationOutline } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
     <section id="contact" className="w-screen h-full flex flex-col items-center bg-[#fff] text-black py-8 lg:py-16 px-2 lg:px-12 text-custom-blue">
       <div className="flex flex-col mb-8 lg:items-end lg:w-full">
         <div>
-          <h4 className="uppercase flex items-center gap-2 text-lg lg:text-xl text-custom-beige-dark">
+          <motion.h4
+          initial = {{ opacity:0, y:100 }}
+          whileInView={{ opacity:1, y: 0}}
+          transition={{ duration:0.3, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="uppercase flex items-center gap-2 text-lg lg:text-xl text-custom-beige-dark"
+          >
             <IoChatboxEllipsesOutline className="text-xl lg:text-3xl" />
             Fale conosco
-          </h4>
-          <h1 className="mt-2 text-2xl lg:text-4xl">Estamos Aqui Para Ajudar Você</h1>
+          </motion.h4>
+          <motion.h1
+          initial = {{ opacity:0, y:100 }}
+          whileInView={{ opacity:1, y: 0}}
+          transition={{ duration:0.3, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="mt-2 text-2xl lg:text-4xl"
+          >
+            Estamos Aqui Para Ajudar Você
+          </motion.h1>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-6">
-        <div className="lg:w-1/2">
+        <motion.div
+        initial = {{ opacity:0, y:100 }}
+        whileInView={{ opacity:1, y: 0}}
+        transition={{ duration:0.3, delay: 0.5 }}
+        viewport={{ once: true }}
+        className="lg:w-1/2"
+        >
           <p className="text-justify lg:text-lg">
             Entre em contato conosco para discutir suas necessidades jurídicas, obter consultoria ou simplesmente para tirar suas dúvidas. Nossa equipe está pronta para ajudar você.
           </p>
@@ -74,7 +97,7 @@ export default function Contact() {
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
-        </div>
+        </motion.div>
         <div className="lg:w-1/2">
           <Email />
         </div>

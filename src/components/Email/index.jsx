@@ -50,7 +50,7 @@ export default function Email() {
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.3, delay: 0.6 }}
+        transition={{ duration: 0.3, delay: 0.5 }}
       >
         <div className="flex items-center text-custom-blue">
           <IoMail className="text-2xl mr-2" />
@@ -84,7 +84,7 @@ export default function Email() {
           required
         />
         <button
-          className="w-32 bg-custom-blue rounded mt-2 font-bold text-custom-beige p-2 lg:text-lg"
+          className="w-32 bg-custom-blue rounded mt-2 font-bold text-custom-beige p-2 lg:text-lg hover:bg-custom-beige hover:text-custom-blue transition duration-[200ms] ease-linear"
           type='submit'
           value='Send'
         >

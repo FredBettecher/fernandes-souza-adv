@@ -50,7 +50,7 @@ export default function Email() {
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.3, delay: 0.5 }}
+        transition={{ duration: 0.3, delay: 0.4 }}
       >
         <div className="flex items-center text-custom-blue">
           <IoMail className="text-2xl mr-2" />

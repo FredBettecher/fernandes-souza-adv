@@ -7,7 +7,7 @@ import Operation from "@/containers/operation";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center animate-fade animate-duration-[2000ms] animate-delay-100 animate-ease-linear">
+    <main className="flex min-h-screen flex-col items-center animate-fade animate-duration-[2000ms] animate-delay-100 animate-ease-linear overflow-x-hidden">
       <Navbar />
       <HeroSection />
       <AboutUs />

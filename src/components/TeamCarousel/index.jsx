@@ -28,7 +28,7 @@ export default function TeamCarousel() {
         "Direito Administrativo, Direito Civil, Direito do Trabalho e Direito Empresarial",
       description:
         "Graduado em Direito pela Faculdade Nacional – FINAC (2007-2012), Leonardo possui pós-graduação em Direito Processual Civil pela Faculdade de Direito de Vitória – FDV. Advogado inscrito na OAB/ES sob o nº 26098, atua desde 2016. Foi Gerente Jurídico da Melhado Advogados Associados (antiga LC Marcon Advogados Associados) de 2007 a 2017.",
-    },
+    }
   ];
   return (
     <Carousel>

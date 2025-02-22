@@ -46,7 +46,7 @@ export default function Operation() {
               viewport={{ once: true }}
               className="mt-4 text-justify"
             >
-              Na LFSouza Advogados Associados, nosso atendimento abrange uma ampla gama de serviços jurídicos, tanto no âmbito judicial quanto extrajudicial. Atuamos em diversas áreas do direito para oferecer soluções completas e personalizadas a nossos clientes.
+              Na Fernandes & Souza Advogados Associados, nosso atendimento abrange uma ampla gama de serviços jurídicos, tanto no âmbito judicial quanto extrajudicial. Atuamos em diversas áreas do direito para oferecer soluções completas e personalizadas a nossos clientes.
             </motion.p>
           </div>
           <motion.div

@@ -26,7 +26,7 @@ export default function Footer() {
         <Image src={Logo} className="w-64" />
         <div className="flex flex-col">
           <h4 className="font-bold text-custom-beige uppercase text-center md:text-start">ligue agora</h4>
-          <p>(00) 912345678</p>
+          <p>(27) 99986-5750</p>
         </div>
       </div>
 
@@ -53,17 +53,17 @@ export default function Footer() {
           </p>
           <div className="flex gap-4 mt-2">
             <div className="bg-custom-blue-light rounded-full w-10 h-10 flex items-center justify-center cursor-pointer hover:bg-custom-beige-light hover:text-custom-blue text-xl transition duration-[200ms] ease-linear">
-              <Link href={"#"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://www.facebook.com/fernandessouzaadvogadosassociados"} target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
               </Link>
             </div>
             <div className="bg-custom-blue-light rounded-full w-10 h-10 flex items-center justify-center cursor-pointer hover:bg-custom-beige-light hover:text-custom-blue text-xl transition duration-[200ms] ease-linear">
-              <Link href={"#"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://www.instagram.com/fernandesesouza_associados/"} target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </Link>
             </div>
             <div className="bg-custom-blue-light rounded-full w-10 h-10 flex items-center justify-center cursor-pointer hover:bg-custom-beige-light hover:text-custom-blue text-xl transition duration-[200ms] ease-linear">
-              <Link href={"#"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://wa.me/5527999865750"} target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp />
               </Link>
             </div>

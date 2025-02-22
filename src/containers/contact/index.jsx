@@ -48,12 +48,12 @@ export default function Contact() {
               <h4 className="lg:text-lg text-custom-beige-dark uppercase">Redes Sociais</h4>
               <div className="flex gap-8 mt-2 text-custom-beige">
                 <div className="bg-custom-blue-light rounded-full w-12 h-12 flex items-center justify-center cursor-pointer hover:bg-custom-beige-light hover:text-custom-blue text-2xl transition duration-[200ms] ease-linear">
-                  <Link href={"#"} target="_blank" rel="noopener noreferrer">
+                  <Link href={"https://www.facebook.com/fernandessouzaadvogadosassociados"} target="_blank" rel="noopener noreferrer">
                     <FaFacebookF />
                   </Link>
                 </div>
                 <div className="bg-custom-blue-light rounded-full w-12 h-12 flex items-center justify-center cursor-pointer hover:bg-custom-beige-light hover:text-custom-blue text-2xl transition duration-[200ms] ease-linear">
-                  <Link href={"#"} target="_blank" rel="noopener noreferrer">
+                  <Link href={"https://www.instagram.com/fernandesesouza_associados/"} target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
                   </Link>
                 </div>
@@ -64,11 +64,11 @@ export default function Contact() {
               <div className="flex flex-col gap-4 mt-2">
                 <div className="flex items-center gap-2">
                   <div className="bg-custom-blue-light rounded-full w-12 h-12 flex items-center justify-center cursor-pointer hover:bg-custom-beige-light hover:text-custom-blue text-2xl transition duration-[200ms] ease-linear text-custom-beige-dark">
-                    <Link href={"#"} target="_blank" rel="noopener noreferrer">
+                    <Link href={"https://wa.me/5527999865750"} target="_blank" rel="noopener noreferrer">
                       <FaWhatsapp />
                     </Link>
                   </div>
-                  <p>(00) 91234-5678</p>
+                  <p>(27) 99986-5750</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="bg-custom-blue-light rounded-full w-12 h-12 flex items-center justify-center cursor-pointer hover:bg-custom-beige-light hover:text-custom-blue text-2xl transition duration-[200ms] ease-linear text-custom-beige-dark">

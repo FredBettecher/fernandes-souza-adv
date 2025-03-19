@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import chesnaGrotesk from "@/styles/fonts/fonts";
-import Logo from "../../public/images/logo-1.webp";
 
 export const metadata = {
   title: "Fernandes & Souza Advogados Associados",
@@ -14,23 +13,6 @@ export const metadata = {
       url: "http://www.lucasfernandes.adv.br/",
     },
   ],
-  openGraph: {
-    title: "Fernandes & Souza Advogados Associados",
-    description:
-      "Especialistas em Direito Civil, Comercial e Trabalhista. Atendimento especializado e soluções jurídicas eficientes.",
-    url: "http://www.lucasfernandes.adv.br/",
-    siteName: "Fernandes & Souza Advogados",
-    images: [
-      {
-        url: Logo,
-        width: 1200,
-        height: 630,
-        alt: "Fernandes & Souza Advogados Associados",
-      },
-    ],
-    type: "website",
-    locale: "pt_BR",
-  },
 };
 
 export default function RootLayout({ children }) {
